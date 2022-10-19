@@ -1,3 +1,4 @@
+
 <template>
   <div class="container">
     <div class="notification p-3 m-3">
@@ -33,7 +34,6 @@
           <span>explanation: {{ des }}</span>
         </div>
       </div>
-
       <b-carousel>
         <!--         <b-carousel-item v-for="(carousel, i) in images" :key="i">
           <div class="card my-3">
@@ -81,8 +81,8 @@
       </b-carousel>
     </div>
   </div>
+  
 </template>
-
 <script>
 export default {
   name: "ImagesPage",
