@@ -10,11 +10,16 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import router from './router'
 import Ads from 'vue-google-adsense'
 
+Vue.use(require('vue-script2'))
+
+Vue.use(Ads.Adsense)
+Vue.use(Ads.InArticleAdsense)
+Vue.use(Ads.InFeedAdsense)
+Vue.use(Ads.AutoAdsense, { adClient: 'ca-pub-6305863275081549' })
+
 library.add(fas);
 Vue.component('vue-fontawesome', FontAwesomeIcon);
 
-Vue.use(require('vue-script2'))
-Vue.use(Ads.Adsense)
 
 Vue.use(Buefy, {
   defaultIconComponent: "vue-fontawesome",
