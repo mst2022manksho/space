@@ -34,6 +34,18 @@
           <span>explanation: {{ des }}</span>
         </div>
       </div>
+          <div class="adsbygoogle">
+      <Adsense
+        data-ad-client="ca-pub-6305863275081549"
+        data-ad-slot="4202572180"
+        data-ad-format="fluid"
+        style="display: block"
+        data-ad-layout-key="-fb+5w+4e-db+86"
+        :data-full-width-responsive="true"
+      >
+      </Adsense>
+    </div>
+
       <b-carousel>
         <!--         <b-carousel-item v-for="(carousel, i) in images" :key="i">
           <div class="card my-3">

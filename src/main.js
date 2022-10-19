@@ -8,10 +8,13 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import router from './router'
+import Ads from 'vue-google-adsense'
 
 library.add(fas);
 Vue.component('vue-fontawesome', FontAwesomeIcon);
 
+Vue.use(require('vue-script2'))
+Vue.use(Ads.Adsense)
 
 Vue.use(Buefy, {
   defaultIconComponent: "vue-fontawesome",
